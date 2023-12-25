@@ -1,0 +1,22 @@
+There are 3 types of variables in JavaScript:-
+
+1)var(depreciated)
+->Does not support Block scope
+->If one var is created globally, with the same another var(mistakenly) created in another loop/block.
+If you try to change the value in 2nd var, it will also change the value of 1st var.
+->Doesn't require initial value
+->Value can be updated
+->Accessible from Window object(on browser)
+
+2)let
+->Support Block scope. Accessible within block scope only
+->Doesn't require initial value
+->Value can be updated
+->Not accessible from the Window object
+
+
+3)const
+->Can't be used before it is defined.
+->Should be declared and initialized at the same time.
+->Require initial value
+->Value can't be updated
