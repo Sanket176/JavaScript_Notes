@@ -1,0 +1,11 @@
+There are Majorly two ways to show a function
+
+1)Normal Function
+function xyz(){
+	console.log("This is Normal Function");
+}
+
+2)Arrow function
+let xyz =()=>{
+	console.log("This is Normal Function");
+}
